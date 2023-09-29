@@ -1,5 +1,5 @@
 {
-    "name": "weboccult/slack-notifier",
+    "name": "weboccult-laravel/slack-notifier",
     "description": "Simple package to send slack messages in Laravel.",
     "type": "laravel-helper",
     "require": {
