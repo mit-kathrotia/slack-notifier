@@ -20,5 +20,5 @@
             "Weboccult\\SlackNotifier\\": "packages/weboccult/slack-notifier/src/"
         }
     },
-    "minimum-stability": "beta"
+    "minimum-stability": "stable"
 }
