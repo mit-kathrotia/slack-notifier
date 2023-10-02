@@ -12,8 +12,8 @@
     }],
     "autoload": {
         "files": [
-            "weboccult-laravel/slack-notifier/src/Helpers/SlackHelper.php",
-            "weboccult-laravel/slack-notifier/src/Helpers/SlackGlobalHelper.php"
+            "src/Helpers/SlackHelper.php",
+            "src/Helpers/SlackGlobalHelper.php"
         ],
         "psr-4": {
             "App\\": "app/",
