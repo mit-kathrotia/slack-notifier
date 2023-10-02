@@ -27,16 +27,16 @@ You can install the package via composer:
     ```
 ## Examples
 1. Simple message
-
-```
-slack_send_message("Hello from *slack-notifier*","channel_name");
-```
+    
+    ```
+    slack_send_message("Hello from *slack-notifier*","channel_name");
+    ```
 
 2. Message with heading
 
-```
-slack_send_message_with_heading("Welcome to *slack-notifier*","New message for you :wave:","channel_name");
-```
+    ```
+    slack_send_message_with_heading("Welcome to *slack-notifier*","New message for you :wave:","channel_name");
+    ```
 
 3. Message with field blocks
     - Without heading
