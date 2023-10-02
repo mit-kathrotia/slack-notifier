@@ -17,7 +17,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "Weboccult\\SlackNotifier\\": "packages/weboccult/slack-notifier/src/"
+            "Weboccult\\SlackNotifier\\": "src/"
         }
     },
     "minimum-stability": "stable"
