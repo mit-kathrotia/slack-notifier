@@ -13,6 +13,7 @@ You can install the package via composer:
 - Set SLACK_BOT_USER_OAUTH_TOKEN in .env
 - Create an Incoming Webhook for channels
 - set these channels in .env
+- set "Bot Token Scopes" according to your need
 - set auth token, channels & their webhooks in ```config/services.php```
 
     i.e
