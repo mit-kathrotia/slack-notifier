@@ -9,7 +9,7 @@ if (!function_exists('slack_send_message') ){
      * @param  mixed $channel
      * @return void
      */
-    function slack_send_message(string $message, string $channel = 'default'){
+    function slack_send_message(string $message, string $channel){
         return (new SlackHelper)->slackSendMessage($message,$channel);
     }
 }
@@ -22,7 +22,7 @@ if (!function_exists('slack_send_message_with_heading') ){
      * @param  mixed $channel
      * @return void
      */
-    function slack_send_message_with_heading(string $message, string $heading, string $channel = 'default')
+    function slack_send_message_with_heading(string $message, string $heading, string $channel )
     {
         return (new SlackHelper)->slackSendMessageWithHeader($message,$heading,$channel);
 
@@ -36,7 +36,7 @@ if (!function_exists('slack_send_message_with_field_block') ){
      * @param  mixed $channel
      * @return void
      */
-    function slack_send_message_with_field_block(string $message, array $fields ,string $channel = 'default', $heading = NULL){
+    function slack_send_message_with_field_block(string $message, array $fields ,string $channel, $heading = NULL){
         return (new SlackHelper)->slackSendMessageWithFieldBlock($message,$fields,$channel,$heading);
     }
 }
